@@ -3,7 +3,7 @@ import noteContext from './noteContext'
 import alertContext from '../alert/alertContext'
 
 const NoteState = (props) => {
-    const host = 'http://localhost:8000'      
+    const host = 'https://notes-backend-uzu9.onrender.com.'      
     const context = useContext(alertContext)
     const {getAlert} = context
 
